@@ -20,5 +20,5 @@ const getDoctorById = expressAsyncHandler(async (req, res) => {
     res.status(500).json({ error: "Error fetching doctor" });
   }
 });
-
+console.log(1);
 module.exports = { getDoctorById, getDoctor };
