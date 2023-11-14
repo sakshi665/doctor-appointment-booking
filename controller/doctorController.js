@@ -21,5 +21,5 @@ const getDoctorById = expressAsyncHandler(async (req, res) => {
   }
 });
 console.log(1);
-console.log(2);
+console.log(3);
 module.exports = { getDoctorById, getDoctor };
