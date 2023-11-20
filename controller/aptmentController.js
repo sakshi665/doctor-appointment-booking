@@ -23,7 +23,7 @@ const getAppointment = expressAsyncHandler(async (req, res) => {
     if (!req.body.date) {
       return res.status(400).json({ message: "Appointment date is required" });
     }
-    console.log(he)
+    console.log(hell)
     const receivedData = req.body;
     const requestedTime = new Date(receivedData.date);
     const requestedDay = requestedTime.getDay();
