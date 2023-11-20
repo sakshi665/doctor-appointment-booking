@@ -35,7 +35,7 @@ const getAppointment = expressAsyncHandler(async (req, res) => {
     ) {
       return res.status(400).json({ message: "Invalid appointment time" });
     }
-    console.log(80);
+    console.log(82);
     const startTime = new Date(
       doctor.weeklySchedule[
         requestedTime.toLocaleDateString("en-US", { weekday: "long" })
